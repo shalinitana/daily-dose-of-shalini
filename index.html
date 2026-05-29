@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Dose of Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Daily Dose of Love ❤️</h1>
+        <p class="subtitle">Since 9 January 2022</p>
+
+        <div class="card">
+            <h2>Today’s Love Note</h2>
+            <p id="dailyNote"></p>
+        </div>
+
+        <button onclick="randomNote()">Miss me? Tap here 💌</button>
+        <p id="randomNote"></p>
+
+        <div class="card">
+            <h2>Open When...</h2>
+            <button onclick="openWhen('sad')">You feel sad</button>
+            <button onclick="openWhen('tired')">You feel tired</button>
+            <button onclick="openWhen('miss')">You miss me</button>
+            <p id="openWhenText"></p>
+        </div>
+
+        <div class="card">
+            <h2>We’ve Been Together ❤️</h2>
+            <p id="together"></p>
+        </div>
+
+        <div class="card">
+            <h2>Next Anniversary Countdown</h2>
+            <p id="countdown"></p>
+        </div>
+
+        <button onclick="secretMessage()">Secret Button 🤫</button>
+        <p id="secret"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

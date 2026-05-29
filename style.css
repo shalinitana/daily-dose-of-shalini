@@ -1,0 +1,47 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffd6e8, #fff3f8);
+  color: #4a2c35;
+  text-align: center;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 25px;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 22px;
+  padding: 20px;
+  margin: 18px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+button {
+  background: #ff6fae;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 13px 18px;
+  margin: 8px;
+  font-size: 15px;
+}
+
+#dailyNote, #randomNote, #openWhenText, #countdown, #together, #secret {
+  font-size: 18px;
+  line-height: 1.5;
+}
