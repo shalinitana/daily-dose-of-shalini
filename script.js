@@ -1,20 +1,20 @@
 const dailyNotes = [
-  "I hope you know how much I love you ❤️",
-  "You are my favourite person.",
-  "I’m so proud of you, always.",
+  "I hope you know how much I love you ma ❤️",
+  "You are my favourite person in the whole entire universe.",
+  "I’m so proud of you, always, my Gideon.",
   "You make my life softer and happier.",
   "I love disturbing you because you are mine.",
-  "No matter how busy life gets, you are always in my heart.",
-  "You make ordinary days feel special.",
-  "I’m lucky to have you.",
-  "Your smile is one of my favourite things.",
+  "No matter how busy life gets, you are always in my heart ma, AND I BETTER BE TOO.",
+  "You make ordinary days feel special but sometimes you really annoy me.",
+  "I’m lucky to have you, the luckiest actually.",
+  "Your smile is one of my favourite things, smile more instead of burping ma.",
   "I love you more than yesterday."
 ];
 
 const randomNotes = [
   "I miss youuu ❤️",
   "Come here, I want a hug.",
-  "Reminder: you are loved by me.",
+  "Reminder: you are loved by me, always and forever.",
   "You are my safe place.",
   "I choose you again and again.",
   "You are annoying but I love you 😂",
@@ -22,8 +22,8 @@ const randomNotes = [
 ];
 
 const openWhenMessages = {
-  sad: "I’m sorry you feel sad. Breathe, okay? I love you and I’m always on your side ❤️",
-  tired: "Rest, baby. You don’t always have to be strong. I’m proud of you.",
+  sad: "I’m sorry you feel sad. Breathe, okay? Always pray and commit to God. Everything will be fine. I love you and I’m always on your side ❤️",
+  tired: "Rest, ma. You don’t always have to be strong. I’m proud of you.",
   miss: "I miss you too. Imagine me hugging you very tightly right now."
 };
 
@@ -73,7 +73,7 @@ function updateCountdown() {
 
 function secretMessage() {
   document.getElementById("secret").innerText =
-    "If I had to choose again, I would still choose you. ❤️";
+    "I love you ma ❤️";
 }
 
 showDailyNote();
