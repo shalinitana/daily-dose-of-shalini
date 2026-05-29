@@ -96,4 +96,28 @@ function createHeart() {
 }
 
 setInterval(createHeart, 600);
+// Floating hearts
+setInterval(() => {
+  const heart = document.createElement("div");
+  heart.innerHTML = "❤️";
+  heart.style.position = "fixed";
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.bottom = "-30px";
+  heart.style.fontSize = "24px";
+  heart.style.zIndex = "9999";
+  heart.style.pointerEvents = "none";
+  heart.style.transition = "transform 5s linear, opacity 5s linear";
+  heart.style.opacity = "1";
+
+  document.body.appendChild(heart);
+
+  setTimeout(() => {
+    heart.style.transform = "translateY(-110vh)";
+    heart.style.opacity = "0";
+  }, 100);
+
+  setTimeout(() => {
+    heart.remove();
+  }, 5200);
+}, 700);
 
